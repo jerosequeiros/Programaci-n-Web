@@ -2,4 +2,4 @@ h1{color: black}
 /* esto es un comentario */
 body{background-color: brown;}
 body{color: black;}
-#foto-body{ width: 50%;}
+#foto-body{ width: 50%; height: 50%;}
