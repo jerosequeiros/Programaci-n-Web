@@ -1,7 +1,7 @@
-h1{color: black}
+h1{color: white; text-align: center;}
 h1{font-size: 70mp;}
 /* esto es un comentario */
 body{background-color: rgb(104, 30, 30);}
-body{color: black;}
+body{color: white;}
 #foto-body{ width: 50%; height: 50%;}
 body{background-image:url(/gallardo.jpg)}
