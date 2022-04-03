@@ -10,15 +10,28 @@ body{color: white;}
     width: 150px;
     border: 15px solid green;
     padding: 25px;
-    margin: 10px;
-  }
+    margin: 10px;}
+
   #fotoperfil {
     width: 250px;
     border: 15px solid black;
     padding: 5px;
-    margin: 10px;
-  }
-  #icono-contacto {
+    margin: 10px;}
+
+  #icono-contacto{
       width: 3%;
       position: fixed;
-bottom: 10px; right: 20px;  }
+bottom: 10px; right: 20px;}
+
+header{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  background-color: rgb(254, 253, 253);}
+  
+  #logo-header{width: 5%;}
+
+  menu{list-style-type: none;}
+menu > a > li{ display: inline;}
+
+
