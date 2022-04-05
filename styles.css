@@ -31,7 +31,11 @@ header{
   
   #logo-header{width: 5%;}
 
-  menu{list-style-type: none;}
+  menu{list-style-type: none;
+  float: right;} 
 menu > a > li{ display: inline;}
 
+.col{border: 1px solid white;}
+.col-8{border: 1px solid white;}
 
+.btn-primary{background-color: black;}
