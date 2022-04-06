@@ -1,0 +1,18 @@
+#logo-header{width: 80px;}
+header{
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0px;
+    background-color: gray;}
+    menu{list-style-type: none;
+        float: right;} 
+      menu > a > li{ display: inline;}
+
+h1{color: black;text-align: center;font-size: 70px;}
+
+h2{color: black; text-align: center; font-size: 85%;}
+
+body{background-image: url(./artesanias.jpg), url(./foto\ fondo.jpeg); 
+ background-size: cover;
+background-repeat: no-repeat, repeat; 
+margin: 0%; height: 100vh;} 
