@@ -2,5 +2,9 @@ h1{color: black; text-align: center;}
 h2{color: black; text-align: center; font-size: 75%;}
 menu{list-style-type: none;background-color: black;}
     menu > a > li{ display: inline;}
+    #fila1{margin: 20px;}
+    #columna1{margin: 20px;}
+
+
 
 
