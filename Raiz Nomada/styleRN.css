@@ -3,14 +3,19 @@ header{ position: sticky;
   position: -webkit-sticky;
   top: 0px;
   background-color: rgb(234, 174, 97);}
+
+  #foto-inicio{
+    width: 250px;
+    border: 15px solid black;
+    padding: 5px;
+    margin: 10px;}
     
 menu{list-style-type: none;
         float: right;} 
 menu > a > li{ display: inline;}
 
-h1{color: black;text-align: center;font-size: 70px;}
-
-h2{color: black; text-align: center; font-size: 90%;}
+h1{color: black;text-align: center;font-size: 350%;}
+h2{color: black; text-align: center; font-size: 80%;}
 
 #icono-contacto{
   width: 3%;
