@@ -1,18 +1,21 @@
-#logo-header{width: 80px;}
-header{
-    position: sticky;
-    position: -webkit-sticky;
-    top: 0px;
-    background-color: gray;}
-    menu{list-style-type: none;
+#logo-header{width: 75px;}
+header{ position: sticky;
+  position: -webkit-sticky;
+  top: 0px;
+  background-color: rgb(234, 174, 97);}
+    
+menu{list-style-type: none;
         float: right;} 
-      menu > a > li{ display: inline;}
+menu > a > li{ display: inline;}
 
 h1{color: black;text-align: center;font-size: 70px;}
 
-h2{color: black; text-align: center; font-size: 85%;}
+h2{color: black; text-align: center; font-size: 90%;}
 
-body{background-image: url(./artesanias.jpg), url(./foto\ fondo.jpeg); 
- background-size: cover;
-background-repeat: no-repeat, repeat; 
-margin: 0%; height: 100vh;} 
+#icono-contacto{
+  width: 3%;
+  position: fixed;
+bottom: 10px; right: 20px;}
+
+.col{border: 2px solid black;}
+.col-8{border: 2px solid black;}
