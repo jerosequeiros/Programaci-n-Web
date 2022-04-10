@@ -39,3 +39,6 @@ menu > a > li{ display: inline;}
 .col-8{border: 1px solid white;}
 
 .btn-primary{background-color: black;}
+
+body{background-image: url(./images/monumental2.jpg);
+  background-size: cover;}

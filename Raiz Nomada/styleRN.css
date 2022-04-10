@@ -2,20 +2,15 @@
 header{ position: sticky;
   position: -webkit-sticky;
   top: 0px;
-  background-color: rgb(234, 174, 97);}
+  background-color: transparent;}
 
-  #foto-inicio{
-    width: 250px;
-    border: 15px solid black;
-    padding: 5px;
-    margin: 10px;}
-    
-menu{list-style-type: none;
-        float: right;} 
+  
+menu{list-style-type: none; float: right;} 
 menu > a > li{ display: inline;}
 
-h1{color: black;text-align: center;font-size: 350%;}
-h2{color: black; text-align: center; font-size: 80%;}
+h1{color: white;text-align: end; font-size: 500%; border-top: 100px;}
+
+
 
 #icono-contacto{
   width: 3%;
@@ -23,4 +18,17 @@ h2{color: black; text-align: center; font-size: 80%;}
 bottom: 10px; right: 20px;}
 
 .col{border: 2px solid black;}
-.col-8{border: 2px solid black;}
+.col-8{border: 2px solid none}
+
+body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto\ 3.jfif), url(./foto\ 1.jfif);
+   background-position: top left,center center,bottom right;
+  background-size: 100%;
+  background-repeat: no-repeat,no-repeat, repeat;}
+
+  #ModeloDeCaja{
+    background-color: bisque;
+    width: 300px;
+    border: 10px solid #704116;
+    padding: 50px;
+    margin: 20px;
+    font-family: 'Open Sans', sans-serif;}
