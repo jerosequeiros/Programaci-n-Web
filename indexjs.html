@@ -7,41 +7,58 @@
 <body>
     <!-- comentario dentro de HTML -->
 <script> // comentario de JavaScript
-let nombre ="jeronimo"
+
+/* let nombre ="jeronimo"
 let edad = 20 
 edad = edad + 1 
 siguiente = 1
 let verdaderoOFalso = true
+document.write('La web de Jero');
+console.log("No deberias leer esto")
+console.log(nombre)
+document.write(edad)
+console.log(typeof(verdaderoOFalso))
+console.log(edad+siguiente)
+ */
 /*
-esto es
-un comentario
-multilinea
-*/
-  document.write('La web de Jero');
-  console.log("No deberias leer esto")
-  console.log(nombre)
-  document.write(edad)
-  console.log(typeof(verdaderoOFalso))
-  console.log(edad+siguiente)
+let nombre;
+let edad; 
 
+nombre = prompt("ingrese su nombre: ")
+edad = prompt("ingrese su edad: ")
+document.write(nombre + " es un lindo nombre")
+document.write('<br>')
+document.write( edad + " es tu edad")
+document.write('<br>')
+document.write("el año que viene tendras " + (Number(edad)+1) + " años")
 
+document.write('<br>')
 
-  /*
-  Variables? espacio en memoria donde se almacena un valor. 
-  Que es? Un cajon
-  Como armo una variable? 
-  let nombreDeLaVariable ="valor"
-  ej: let nombre="jeronimo"
-  = es el operador de asignación 
+let cateto1
+let cateto2
+cateto1 = prompt("ingrese cateto1: ")
+cateto2 = prompt("ingrese cateto 2: ")
+let hipotenusa
+hipotenusa = Math.sqrt((cateto1*cateto1)+(cateto2*cateto2))
+document.write("La hipotenusa es de: " + hipotenusa)
 
-  Tipos de datos: 
-numerico: enteros o con coma (integer, float)
-string: cadena de caracteres
+document.write(11%5)*/
 
-+ > suma o concatenacion (juntar strings)
-Nan = not a number 
+let edad = prompt("ingrese su edad: ")
+if (edad >= 18){document.write("puede pasar")
+}else{
+      document.write("no puede pasar")
+}
 
-  */
+let decision = prompt("¿Mueve la palanca?")
+if(decision === "si"){
+  document.write("mata 1 persona")
+}else if(decision === "no"){
+  document.write("mata 5 personas")
+}else{
+  document.write("ingrese si o no") 
+}
+  
 </script>
 </body>
 
