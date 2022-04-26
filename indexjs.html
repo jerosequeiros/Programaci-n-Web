@@ -42,7 +42,7 @@ let hipotenusa
 hipotenusa = Math.sqrt((cateto1*cateto1)+(cateto2*cateto2))
 document.write("La hipotenusa es de: " + hipotenusa)
 
-document.write(11%5)*/
+document.write(11%5)
 
 let edad = prompt("ingrese su edad: ")
 if (edad >= 18){document.write("puede pasar")
@@ -59,7 +59,52 @@ if(decision === "si"){
   document.write("ingrese si o no") 
 }
   
+ let peso = prompt("ingrese su peso")
+ let altura = prompt("ingrese su altura")
+ let resultado = (peso/(altura*altura))
+
+ document.write(resultado)
+ document.write('<br>')
+ if (resultado > 25){document.write("tas gordito")
+}
+if (resultado >= 20){document.write("buena pa")
+}
+if (resultado < 20){document.write("a comerrr")
+}
+*/
+
+let operador = prompt("ingresar el operador (+, -, *, /)")
+let numero1 = Number(prompt("ingrese un numero"))
+let numero2 = Number(prompt("ingrese un numero"))
+
+
+if (operador === "+"){
+  document.write(numero1 + numero2)
+}
+
+else if (operador === "*"){
+  document.write(numero1 * numero2)
+}
+else if (operador === "-"){
+  document.write(numero1 - numero2)
+}
+ else {
+   if (numero2 === 0)
+   {document.write("no se puede dividir por 0")
+  }
+   else{
+     document.write(numero1/numero2)
+   }
+ }
+
+
+
+
+
+ 
 </script>
+<script src="./codigo.js"></script>
+
 </body>
 
 </html>

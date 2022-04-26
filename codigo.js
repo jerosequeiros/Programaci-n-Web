@@ -30,6 +30,9 @@ las constantes se escriben en MAYUSCULA
 == pregunta si el valor coincide
 === pregunta si el valor y el tipo de dato coinciden 
 
+prompt sirve para pedir un dato
+alert("hola") va a mostrar un cartelito que dice hola
+
 
   */
 
