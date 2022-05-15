@@ -1,14 +1,36 @@
 #logo-header{width: 75px;}
+
 header{ position: sticky;
+  list-style-type: none;
+  position: sticky;
   position: -webkit-sticky;
-  top: 0px;
-  background-color: transparent;}
+  top: 0%;
+  background-color: transparent;
+}
 
-  
-menu{list-style-type: none; float: right;} 
-menu > a > li{ display: inline;}
+  #col-der{
+  width: 93%;
+  float: right;
+}
+#col-izq{ 
+  width: 2%;
+  float:left;
+}
+menu >a > li { 
+  display: inline;
+  font-size: 130%;
+  font-family: 'Open Sans', sans-serif;
+  color:rgb(65, 61, 61)
+  ;
+}
+menu{text-align: center;}
 
-h1{color: white;text-align: end; font-size: 500%; border-top: 100px;}
+
+
+h1{color: white;text-align: end;
+   font-size: 500%;
+   border-top: 100px;
+   background-color: rgb(65, 61, 61);}
 
 #mision{
   color:#2c1f19;
@@ -20,7 +42,8 @@ h1{color: white;text-align: end; font-size: 500%; border-top: 100px;}
 #icono-contacto{
   width: 3%;
   position: fixed;
-bottom: 10px; right: 20px;}
+bottom: 10px; right: 20px;
+}
 
 .col{color: white; border: 2px solid rgb(247, 245, 245);}
 .col-6{color: white; border: 2px solid none}
@@ -33,22 +56,25 @@ body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto-3.jpeg), url(./f
   #modelodecaja{background-color: rgb(65, 61, 61);
     width: 300px;
     border: 10px solid #704116;
-    padding: 50px;
-    margin: 20px;
-    font-family: 'Open Sans', sans-serif;}
+    padding: 30px;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+  font-size: 180%;}
 
 
 #col2{background-color: rgb(65, 61, 61);
   width: 300px;
   border: 10px solid #704116;
-  padding: 50px;
-  margin: 20px;}
+  padding: 30px;
+  margin: 50px;
+  font-family: 'Open Sans', sans-serif;
+  }
 
   #modelodecaja2{
     background-color: rgb(65, 61, 61);
     width: 300px;
     border: 10px solid #704116;
-    padding: 50px;
-    margin: 20px;
+    padding: 30px;
+    margin: 50px;
     font-family: 'Open Sans', sans-serif;
- font-size: 190%;}
+ font-size: 180%;}
