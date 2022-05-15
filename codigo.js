@@ -32,8 +32,28 @@ las constantes se escriben en MAYUSCULA
 
 prompt sirve para pedir un dato
 alert("hola") va a mostrar un cartelito que dice hola
+*/
+/* .push agrega contenido al final de un array
+.unshift("lo que quiero agregar") lo agrega al principio
+pop() // elimina el ultimo
+shift() // elimina el primero 
 
+let nombre = "esteban";
+let edad = 29;
+let cargo = "profesor"
 
-  */
-
+let profesor = ["esteban","29","profesor"]
 console.log("hola mundo")
+*/
+
+let nombre = prompt("ingrese su nombre") 
+
+function saludar(){
+  console.log("hola" + nombre)
+}
+
+function mostrar(visible){
+  console.log(visible)
+}
+
+saludar()
