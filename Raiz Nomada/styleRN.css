@@ -30,13 +30,14 @@ menu{text-align: center;}
 h1{color: white;text-align: end;
    font-size: 500%;
    border-top: 100px;
-   background-color: rgb(65, 61, 61);}
+   background-color: rgb(151, 129, 113);}
 
 #mision{
-  color:#2c1f19;
   text-align: center;
-  font-size: 160%;
-  font-family: 'Beau Rivage', cursive; 
+  font-size: 140%; 
+  text-align: end;
+  color: #5b4937;
+  font-family: 'Open Sans', sans-serif;
 }
 
 #icono-contacto{
@@ -78,3 +79,13 @@ body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto-3.jpeg), url(./f
     margin: 50px;
     font-family: 'Open Sans', sans-serif;
  font-size: 180%;}
+
+ #productos2{
+   background-color: rgb(65, 61, 61);
+    width: 300px;
+    border: 10px solid #704116;
+    padding: 30px;
+    margin: 50px;
+    font-family: 'Open Sans', sans-serif;
+ font-size: 85%;}
+ 
