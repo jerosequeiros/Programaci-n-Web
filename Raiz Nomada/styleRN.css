@@ -89,3 +89,37 @@ body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto-3.jpeg), url(./f
     font-family: 'Open Sans', sans-serif;
  font-size: 85%;}
  
+ .columna1{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+   float: left;
+   width: 25%;
+ }
+
+ .columna2{
+   color: white;
+   font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 25%;
+}
+
+.columna3{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 25%;
+}
+
+.columna4{
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  float: left;
+  width: 25%;
+}
+
+
+
+
+ 
+
+ 
