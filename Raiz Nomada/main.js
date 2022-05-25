@@ -3,17 +3,18 @@ console.log("soy externo")
 function HacerAparecer1(){
     let contenedor = document.getElementById("canastos")
     contenedor.innerHTML = 
- "Canasto de palma <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
+  "Canasto de cuero crudo trenzado <br> Medidas: diametro 40cm, Alto 28cm <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
 
  function HacerAparecer2(){
     let contenedor = document.getElementById("enlozados")
     contenedor.innerHTML = 
- "enlozados horno barro steve <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
+ "enlozados <br> Jarra gallo colorado bombé <br> Platos 24cm de diamettro y 3cm de profundidad <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
+ 
 
  function HacerAparecer3(){
     let contenedor = document.getElementById("materas")
     contenedor.innerHTML = 
- "descripcion de las materas <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
+ "Materas de cuero peludas <br> Tamaño ideal <br> Materiales nobles que aportan calidez a vos y tus espacios <br> Artesanias Correntinas"}
 
  function HacerAparecer4(){
     let contenedor = document.getElementById("mesa")

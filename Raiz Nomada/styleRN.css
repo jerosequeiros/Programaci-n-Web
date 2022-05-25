@@ -50,9 +50,9 @@ bottom: 10px; right: 20px;
 .col-6{color: white; border: 2px solid none}
 
 body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto-3.jpeg), url(./foto-2.jpeg);
-   background-position: top left,center center,bottom right;
+  background-position: top left,center center,bottom right; 
   background-size: 100%;
-  background-repeat: no-repeat,no-repeat, repeat;}
+  background-repeat: no-repeat, no-repeat, repeat}
 
   #modelodecaja{background-color: rgb(65, 61, 61);
     width: 300px;
@@ -116,7 +116,6 @@ body{background-image: url(./colas\ de\ zorro.jpeg), url(./foto-3.jpeg), url(./f
   float: left;
   width: 25%;
 }
-
 
 
 
