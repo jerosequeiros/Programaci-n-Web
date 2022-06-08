@@ -12,7 +12,7 @@
     <header>
     <span id="col-izq"></span><img id="logo-header" src="./NOMADA CIRCULAR.jpg"  alt="logo"></span>
     <span id="col-der"> 
-    <menu>
+    <menu id="menu">
         <a href="#"><li>Home</li></a>
         <a href="http://wa.me/+5492392518763"><li>Contacto</li></a>
         <a href="#modelodecaja"><li>Sobre Nosotros</li></a>
@@ -22,7 +22,7 @@
 </header> 
 </head>
 
-    <h1> RAÍZ NÓMADA </h1>
+  <h1> RAÍZ NÓMADA </h1>
     
     <br> <br> <br> <br> 
 
@@ -30,9 +30,7 @@
     En ese ir y venir quiero poder acercarles diseños elegidos,  <br> de materiales nobles, creados por manos artesanas de distintos lados. <br> <br>
      -De ningún lado del todo, de todos lados un poco- <br> Jorge Drexler </h3>
 
-    <br> <br><br> <br> <br> <br> <br> <br>  <br> <br>
-
-    <div class= "container">
+    <div class= "container" style="margin-top: 300px;">
     <div class="row">
        <div class="col-6" 
            
@@ -65,59 +63,63 @@
         <div id="productos" class="col-6">
             <h1 id="modelodecaja2">Productos Raíz Nómada</h1> 
     </div>
+    </div>
+  </div>
 </div>
 </div>
-
-<div class="row row-cols-sm-1 row-cols-md-2 row-cols-lg-3 row-cols-xl-4">
+  <div class="d-flex justify-content-center flex-row" id="cards-productos" class="mx-auto">
    
 
-<div class="card shadow mb-1" style="width: 20rem;">
-    <h5 class="card-title pt-2 text-center text-dark">Canastos</h5>
-    <img src="./canastos.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text text-black-50 description">Canasto de cuero crudo trenzado, <br> Diametro 40cm <br> Alto 28cm</p>
-      <h5 class="text-primary">Precio: <span class="precio"> $ 5</span></h5>
-      <div class="d-grid gap-2">
-      <button class="btn btn-primary-button bg-dark text-white-50"> Añadir al carrito </button>
+    <div class="card shadow mb-1" style="width: 18rem;">
+        <h5 class="card-title pt-2 text-center text-dark">Canastos</h5>
+        <img src="./canastos.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-black-50 description">Canasto de cuero crudo trenzado, <br> Diametro 40cm <br> Alto 28cm</p>
+          <h5 class="text-primary">Precio: <span class="precio"> $ 5</span></h5>
+          <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(5)"> Añadir al carrito </button>
+        </div>
     </div>
-</div>
-</div>
+    </div>
+    
+    <div class="card shadow mb-1" style="width: 18rem;">
+        <h5 class="card-title pt-2 text-center text-dark">Enlozados</h5>
+        <img src="./enlozados.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-black-50 description">Jarra gallo colorado bombé, <br> Platos: diametro 24cm  <br> profundidad 3cm </p>
+          <h5 class="text-primary">Precio: <span class="precio"> $ 10</span></h5>
+          <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(10)"> Añadir al carrito </button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="card shadow mb-1" style="width: 18rem;">
+        <h5 class="card-title pt-2 text-center text-dark">Materas</h5>
+        <img src="./materas.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-black-50 description">Materas de cuero peludas <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
+          <h5 class="text-primary">Precio: <span class="precio"> $ 15</span></h5>
+          <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(15)"> Añadir al carrito </button>
+        </div>
+    </div>
+    </div>
+    
+    <div class="card shadow mb-1" style="width: 18rem;">
+        <h5 class="card-title pt-2 text-center text-dark">Mesa</h5>
+        <img src="./mesa entera.jpeg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <p class="card-text text-black-50 description">Descripción de la mesa entera <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
+          <h5 class="text-primary">Precio: <span class="precio"> $ 20</span></h5>
+          <div class="d-grid gap-2">
+          <button type="button" class="btn btn-primary-button bg-dark text-white-50" onclick="sumarprecio(20)"> Añadir al carrito </button>
+        </div>
+    </div>
+    </div>
+    </div>
 
-<div class="card shadow mb-1" style="width: 20rem;">
-    <h5 class="card-title pt-2 text-center text-dark">Enlozados</h5>
-    <img src="./enlozados.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text text-black-50 description">Jarra gallo colorado bombé, <br> Platos: diametro 24cm  <br> profundidad 3cm </p>
-      <h5 class="text-primary">Precio: <span class="precio"> $ 10</span></h5>
-      <div class="d-grid gap-2">
-      <button class="btn btn-primary-button bg-dark text-white-50"> Añadir al carrito </button>
-    </div>
-</div>
-</div>
 
-<div class="card shadow mb-1" style="width: 20rem;">
-    <h5 class="card-title pt-2 text-center text-dark">Materas</h5>
-    <img src="./materas.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text text-black-50 description">Materas de cuero peludas <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
-      <h5 class="text-primary">Precio: <span class="precio"> $ 15</span></h5>
-      <div class="d-grid gap-2">
-      <button class="btn btn-primary-button bg-dark text-white-50"> Añadir al carrito </button>
-    </div>
-</div>
-</div>
-
-<div class="card shadow mb-1" style="width: 20rem;">
-    <h5 class="card-title pt-2 text-center text-dark">Mesa</h5>
-    <img src="./mesa entera.jpeg" class="card-img-top" alt="...">
-    <div class="card-body">
-      <p class="card-text text-black-50 description">Descripción de la mesa entera <br> Materiales nobles que aportan calidez a vos y tus espacios </p>
-      <h5 class="text-primary">Precio: <span class="precio"> $ 20</span></h5>
-      <div class="d-grid gap-2">
-      <button class="btn btn-primary-button bg-dark text-white-50"> Añadir al carrito </button>
-    </div>
-</div>
-</div></div>
 <br>
 
 <div class="container">
@@ -134,11 +136,12 @@
     
       </tbody>
   </table>
+
   <br><br>
 
 <div class="row mx-4">
     <div class="col">
-        <h3 class="itemCartTotal">Total: 0</h3>
+        <h3 id="itemCartTotal">TOTAL: $0</h3>
     </div>
    <div class="col d-flex justify-content-end">
        <button class="btn btn-success">COMPRAR</button>
@@ -149,8 +152,8 @@
 
 
 
-
-<!-- <div class="container-fluid bg-dark position-sticky top-0">
+<!--
+ <div class="container-fluid bg-dark position-sticky top-0">
     <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
         <li class="nav-item" role="presentation">
           <a class="nav-link active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">Home</a>
